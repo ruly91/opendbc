@@ -393,7 +393,7 @@ class CAR(Platforms):
   )
   LEXUS_GS_F = PlatformConfig(
     [ToyotaCarDocs("Lexus GS F 2016")],
-    CarSpecs(mass=4034. * CV.LB_TO_KG, wheelbase=2.84988, steerRatio=13.3, tireStiffnessFactor=0.444),
+    CarSpecs(mass=4112. * CV.LB_TO_KG, wheelbase=2.84988, steerRatio=13.2, tireStiffnessFactor=0.55),
     dbc_dict('toyota_new_mc_pt_generated', 'toyota_adas'),
     flags=ToyotaFlags.UNSUPPORTED_DSU,
   )
